@@ -13,7 +13,7 @@ To use these services, you will need to sign up for a free [IBM Cloud](https://w
 1. Install the library using `npm`.
 
 ```
-$ npm install --save tjbot
+$ npm install --save tjbotlib4nodered
 ```
 
 > 💡 Note: The TJBot library was developed for use on Raspberry Pi. It may be possible to develop and test portions of this library on other Linux-based systems (e.g. Ubuntu), but this usage is not officially supported.
@@ -46,12 +46,12 @@ tj.initialize([TJBot.HARDWARE.LED_NEOPIXEL, TJBot.HARDWARE.SERVO, TJBot.HARDWARE
 This code will configure your TJBot with an LED (Neopixel), servo, microphone, and speaker. The default configuration of TJBot uses English as the main language with a male voice. Here is an example of a TJBot that speaks with a female voice in Japanese:
 
 ```
-const tj = new TJBot({ 
-    robot: { 
-        gender: TJBot.GENDERS.FEMALE 
-    }, 
-    speak: { 
-        language: TJBot.LANGUAGES.SPEAK.JAPANESE 
+const tj = new TJBot({
+    robot: {
+        gender: TJBot.GENDERS.FEMALE
+    },
+    speak: {
+        language: TJBot.LANGUAGES.SPEAK.JAPANESE
     }
 });
 ```

@@ -1,6 +1,6 @@
 {
-  "name": "tjbot",
-  "version": "2.0.2",
+  "name": "tjbotlib4nodered",
+  "version": "2.0.3",
   "description": "Node.js library for writing TJBot recipes",
   "main": "dist/cjs/tjbot.js",
   "module": "dist/mjs/tjbot.js",
@@ -55,7 +55,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ibmtjbot/tjbotlib.git"
+    "url": "git+https://github.com/jimbotel/tjbotlib4nodered.git"
   },
   "keywords": [
     "tjbot"
@@ -63,7 +63,7 @@
   "author": "TJBot",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/ibmtjbot/tjbotlib/issues"
+    "url": "https://github.com/jimbotel/tjbotlib4nodered/issues"
   },
-  "homepage": "https://github.com/ibmtjbot/tjbotlib#readme"
+  "homepage": "https://github.com/jimbotel/tjbotlib4nodered#readme"
 }
