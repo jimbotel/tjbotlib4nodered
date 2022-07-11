@@ -1,4 +1,4 @@
-# TJBot Library
+# TJBot Library - Copy of the original to adapt it to some changes required so TJBot Node-RED nodes can work properly.
 
 > Node.js library that encapsulates TJBot's capabilities: seeing, listening, speaking, shining, and waving.
 
